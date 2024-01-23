@@ -12,13 +12,15 @@
     },
     "ghcr.io/devcontainers-contrib/features/pnpm:2": {
       "version": "latest"
-    }
+    },
+    "./features/sqlc": {},
+    "./features/psqldef": {}
   },
   "mounts": [
     "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume",
     "source=${localWorkspaceFolderBasename}-pnpm-store,target=${containerWorkspaceFolder}/.pnpm-store,type=volume"
   ],
-  "postCreateCommand": "sudo chown node node_modules .pnpm-store && pnpm install --frozen-lockfile && go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest && go install github.com/sqldef/sqldef/cmd/psqldef@latest",
+  "postCreateCommand": "sudo chown node node_modules .pnpm-store && pnpm install --frozen-lockfile",
   "customizations": {
     "vscode": {
       "extensions": [
