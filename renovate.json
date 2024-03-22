@@ -5,6 +5,7 @@
   ],
   "timezone": "Asia/Tokyo",
   "dependencyDashboard": true,
+  "automerge": true,
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
