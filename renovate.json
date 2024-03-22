@@ -3,7 +3,10 @@
   "extends": [
     "config:recommended"
   ],
-  "automerge": true,
+  "timezone": "Asia/Tokyo",
   "dependencyDashboard": true,
-  "timezone": "Asia/Tokyo"
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  }
 }
