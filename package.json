@@ -1,8 +1,8 @@
 {
   "devDependencies": {
-    "@biomejs/biome": "^1.5.3",
-    "turbo": "^1.11.3",
-    "wrangler": "^3.23.0"
+    "@biomejs/biome": "latest",
+    "turbo": "latest",
+    "wrangler": "latest"
   },
   "scripts": {
     "dev": "turbo dev"
