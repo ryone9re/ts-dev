@@ -16,7 +16,7 @@ importers:
         version: 1.13.2
       wrangler:
         specifier: ^3.23.0
-        version: 3.51.0
+        version: 3.51.2
 
 packages:
 
@@ -590,8 +590,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.51.0:
-    resolution: {integrity: sha512-1WVVbLTWeNP/djFjfctUkrMKbOdWyp/MrRAK6tefW3IgvQV8dEA9WU36GUIhnFhWLTQ2zHfg7jbaoP8n6ticrQ==}
+  /wrangler@3.51.2:
+    resolution: {integrity: sha512-8TRUwzPHj6+uPDzY0hBJ9/YwniEF9pqMGe5qbqLP/XsHTCWxIFib5go374zyCkmuVh23AwV7NuTA6gUtSqZ8pQ==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -1119,4 +1119,6 @@ snapshots:
       mustache: 4.2.0
       stacktracey: 2.1.8
 
-  zod@3.22.4: {}
+  /zod@3.22.5:
+    resolution: {integrity: sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==}
+    dev: true
