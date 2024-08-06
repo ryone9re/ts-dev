@@ -6,6 +6,7 @@
     "wrangler": "latest"
   },
   "scripts": {
-    "dev": "turbo dev"
+    "dev": "turbo dev",
+    "test": "vitest run"
   }
 }
