@@ -1,6 +1,6 @@
 {
   "name": "development",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:2-20-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:3-20-bullseye",
   "remoteUser": "node",
   "containerEnv": {
     "SHELL": "/bin/bash"
